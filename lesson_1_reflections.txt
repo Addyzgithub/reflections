@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+If the previous version of code worked, the bug was obviously introduced when the code was edited.
+By comparing the two versions of the file we can pinpoint where the code was changed and also spot any typos.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If our previous code worked but the modified code is giving errors, we can compare the two by accessing the history.
+This helps us to spot the changes in code where the bug was probably introduced.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: Lesser unwanted history of changes, each commit having a logical change, intuitively differentiate between two commits.
+Cons: Chances of forgetting to commit at a checkpoint, difficult to debug the code if this happens.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is a code-specific VCS and a logical change in the code in one file may ask for changes in other files of the program.
+However, Google docs and other similar VCS are mostly used for editing a single file at a time which is unrelated to any other files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log is used to show an overview of the commits done till date in decending order of time (latest one first) which includes essentially commit ID and a summary of changes done in that commit.
+git diff can then be used to compare between the changes done in two commits by referring to their commit IDs.
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: Version control allows me to go to any previous state of my program and see how my code worked back then. Comparing this to my current or any successive or previous state of the program helps me in pinpointing the commit that introduced the bug. Then I can simply use the git diff command between the commit that was clean and the commit that brought the error to see which lines I changed in that transition which introduced the bug. Thus version control allows me to make changes in my code confidently without the fear of losing the perfectly working state of my code as it is never lost.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: Mostly for version control of all my projects, but I would like to try using Git to open different files and navigating and exploring using commands.
