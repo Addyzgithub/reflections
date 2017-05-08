@@ -7,3 +7,8 @@ Q2: How is the staging area different from the working directory and the reposit
 
 A: Staging area is an intermediate temporary state of our commit before we save it to our repository.
 This allows us to define which files we want to include in the commit and also the message of commit which summarizes the logic behind the commit.
+
+Q3: How can you use the staging area to make sure you have one commit per logical change?
+
+A: For this purpose we can use git diff command to get the difference between the data in the files currently in staging area and the working directory.
+Then we can use git diff --staged command to see the difference between the data in the files currently in staging area and the latest commit.
