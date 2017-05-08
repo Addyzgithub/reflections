@@ -1,0 +1,9 @@
+Q1: What happens when you initialize a repository? Why do you need to do it?
+
+A: Git creates a hidden directory in current working directory which contains the meta-data needed for version controlling.
+This is necessary to tell git we want to start tracking of some of/all the files in that directory and its sub-directories.
+
+Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: Staging area is an intermediate temporary state of our commit before we save it to our repository.
+This allows us to define which files we want to include in the commit and also the message of commit which summarizes the logic behind the commit.
