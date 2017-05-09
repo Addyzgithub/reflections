@@ -12,3 +12,9 @@ Q3: How can you use the staging area to make sure you have one commit per logica
 
 A: For this purpose we can use git diff command to get the difference between the data in the files currently in staging area and the working directory.
 Then we can use git diff --staged command to see the difference between the data in the files currently in staging area and the latest commit.
+
+Q4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: When making experimental changes to the code or testing a new feature whose working we are not sure about.
+Making such branches can help us keep our working model of code safe from the mess we might create while testing or experimenting changes to the code.
+Also it maintains the version controlling and we can merge the changes to our main branch easily once we are sure that our new code works as desired.
