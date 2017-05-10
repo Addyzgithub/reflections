@@ -22,3 +22,7 @@ Also it maintains the version controlling and we can merge the changes to our ma
 Q5: How do the diagrams help you visualize the branch structure?
 
 A: Diagrams show us a tree of commits our code has been through. Also they show us branches that might have been made other than current branch.
+
+Q6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: Merging allows us to combine the changes we did in one branch to those we made in other branch. It essentially creates a new commit combining these changes and makes it the tip of the current checked-out branch. Thus this commit has 2 parents and we can access any of them with this new commit. Also due to this, the sub-branch name is no longer needed and hence can be safely deleted.
