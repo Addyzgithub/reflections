@@ -16,3 +16,7 @@ Describe the differences between forks, clones, and branches. When would you use
 
 	Branches:
 		Branches are used when we want to try adding a new feature or do some experiments on current properly working production level code. They help us to start from the stable code and edit it and save the changes to a separate place, without messing the original state of the code.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	We can know how many commits we have done either online or offline or if our local version is out-of-sync or up-to-date compared to online version since last sync (push/pull) by using git status.
