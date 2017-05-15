@@ -20,3 +20,9 @@ Describe the differences between forks, clones, and branches. When would you use
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 	We can know how many commits we have done either online or offline or if our local version is out-of-sync or up-to-date compared to online version since last sync (push/pull) by using git status.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	With only GitHub, it would be easier to collaborate than with only Git, since it is an online platform and easily accessable to every collaborator. Also most of the files can be easily edited on GitHub itself and all the features of Git are available on GitHub plus many other features too.
+	Using only Git would be a little harder as whenever I update my local repository, I would have to send it to my collaborators and same if others update theirs. There would be a lot of hassle just to sync repositories of all the collaborators. GitHub is the solution to this issue.
+	Without Git and GitHub both, there is very little we can do in terms of collaboration. I would have to convey my changes to every collaborator using some separate medium which could also include sending all of them the required files.
