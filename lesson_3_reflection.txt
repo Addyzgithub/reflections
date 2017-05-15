@@ -26,3 +26,10 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	With only GitHub, it would be easier to collaborate than with only Git, since it is an online platform and easily accessable to every collaborator. Also most of the files can be easily edited on GitHub itself and all the features of Git are available on GitHub plus many other features too.
 	Using only Git would be a little harder as whenever I update my local repository, I would have to send it to my collaborators and same if others update theirs. There would be a lot of hassle just to sync repositories of all the collaborators. GitHub is the solution to this issue.
 	Without Git and GitHub both, there is very little we can do in terms of collaboration. I would have to convey my changes to every collaborator using some separate medium which could also include sending all of them the required files.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	If the change is huge or is the first step towards a huge logical change over which I would need a second opinion of my collaborators as everyone might not welcome it raw, I would make changes in a separate branch rather than directly in master.
+	This way, it would allow collaborators to discuss on my change and update the change to their view-point to reach a state where all of the contributors agree over the change. This branch can later be merged into the main branch.
+	But another major benefit comes into picture when the change has finally become unwelcoming and we want to discard it after trying all the changes. If we had used a separate branch, we can simply delete the branch (which essentially deletes the branch label rendering the commits in it unaccessible) to discard those changes keeping our master branch clutter-free and stable.
+	While if we directly make changes to master branch, we don't have to deal with issues like merge conflicts as it would include only fast-forward merging.
